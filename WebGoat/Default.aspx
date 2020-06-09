@@ -3,6 +3,8 @@
     <asp:HtmlTitle>Welcome to WebGoat.NET o32434342</asp:HtmlTitle>
      <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
       <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
+    <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
+    <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="HelpContentPlaceholder" runat="server">
