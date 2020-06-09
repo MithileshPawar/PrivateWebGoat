@@ -1,6 +1,6 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/Resources/Master-Pages/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="OWASP.WebGoat.NET.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
-    <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
+    <asp:HtmlTitle>Welcome to WebGoat.NET o32434342</asp:HtmlTitle>
      <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
       <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
 </asp:Content>
