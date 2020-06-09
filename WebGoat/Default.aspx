@@ -3,8 +3,7 @@
  <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
     <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
   <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
-  <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
-  <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
+
   <asp:HtmlTitle>Welcome to WebGoat.NET o3243434342</asp:HtmlTitle>
 </asp:Content>
 
