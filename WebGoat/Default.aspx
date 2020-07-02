@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
  <asp:HtmlTitle>Welcome to WebGoat.NET </asp:HtmlTitle>
  <asp:HtmlTitle>Welcome to WebGoat.NET </asp:HtmlTitle>
+ <asp:HtmlTitle>Welcome to WebGoat.NET </asp:HtmlTitle>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="HelpContentPlaceholder" runat="server">
