@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProxySetup.aspx.cs" Inherits="OWASP.WebGoat.NET.ProxySetup" MasterPageFile="~/Resources/Master-Pages/Site.Master"%>
+<!-- <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProxySetup.aspx.cs" Inherits="OWASP.WebGoat.NET.ProxySetup" MasterPageFile="~/Resources/Master-Pages/Site.Master"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
 </asp:Content>
@@ -26,4 +26,4 @@
 		    <asp:Label ID="lblOutput" runat="server"></asp:Label>
 		<br />
 </div>
-</asp:Content>
+</asp:Content> -->

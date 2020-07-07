@@ -12,7 +12,7 @@ namespace OWASP.WebGoat.NET
 		protected void btnReverse_Click(object sender, EventArgs e)
         {
         
-            var name = txtName.Text;
+         // var name = txtName.Text;
             txtName.Text = "";
             lblOutput.Text = "Thank you for using WebGoat.NET " + reverse(name);
         
