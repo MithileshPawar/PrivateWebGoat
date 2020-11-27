@@ -12,5 +12,5 @@ workflows:
           preset: Checkmarx Express
           project: CxProject
           report-file: vulns.json
-          team: /CxServer/MP
+          team: \CxServer\SP\Checkmarx\Mithilesh
   version: 2
