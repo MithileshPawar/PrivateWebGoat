@@ -1,5 +1,5 @@
 orbs:
-  cxflow: checkmarx-ts/cxflow@1.0.4
+  cxflow: mp-namespace/cx-scanner-orb@dev:alpha
 version: 2.1
 workflows:
   sast-scan:
