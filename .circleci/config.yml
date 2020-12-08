@@ -1,16 +1,26 @@
-orbs:
-  cxflow: mp-namespace/cx-scanner-orb@dev:alpha
 version: 2.1
+orbs:
+  orb-tools: circleci/orb-tools@9
+  cxflow: jay-test/cxflow-scanners-orb@dev:alpha
 workflows:
+  version: 2
   sast-scan:
     jobs:
       - cxflow/scan:
-          filters:
-            branches:
-              only:
-                - master
-          preset: Checkmarx Express
-          project: CxProject
+          project: CircleCI-AST-MP
+          team: "\\CxServer\\SP\\Checkmarx\\JayN"
+          preset: "Checkmarx Express"
           report-file: vulns.json
-          team: \CxServer\SP\Checkmarx\Mithilesh
-  version: 2
+          scanners: ast
+          sca-appUrl: https://sca.scacheckmarx.com
+          sca-apiUrl: https://api.scacheckmarx.com
+          sca-accessControlUrl: https://platform.checkmarx.net
+          ast-apiUrl: http://cx-ast-testing.dev.checkmarx-ts.com
+          ast-preset: "Checkmarx Default"
+          ast-incremental: false
+          cxgo-base-url: https://api.checkmarx.net
+          cxgo-portal-url: https://cloud.checkmarx.net
+          cxgo-multi-tenant: true
+          cxgo-configuration: "Default Configuration"
+          cxgo-scan-preset: 1,2,3,4,5,9
+          params: 
