@@ -13,7 +13,7 @@ workflows:
 
 jobs:
   cx-scan:
-    executor: cxflow/latest
+    executor: cxflow/default
     steps:
       - checkout
       - cxflow/scan:
