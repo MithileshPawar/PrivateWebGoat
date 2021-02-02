@@ -4,7 +4,7 @@ orbs:
 
 workflows:
   version: 2
-  sast-scan:
+  sca-scan:
     jobs:
       - cx-scan:
           filters:
@@ -13,7 +13,7 @@ workflows:
 
 jobs:
   cx-scan:
-    executor: cxflow/default
+    executor: cxflow/latest
     steps:
       - checkout
       - cxflow/scan:
